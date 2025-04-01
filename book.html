@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <header>
+        <h1 align="center">Hotel Grandstay</h1>
+        <nav>
+            <ul>
+                <li><a href="Stayhotel.html" font="Lora">home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+    <form>
+        <h1 align="center"><font face="Stencil">Book your Rooms</font></h1>
+        <h3 align="left"><font face="Stencil">Name:</font></h3>
+        <input type="text" placeholder="Enter your name" required id="nm">
+        <h3 align="left"><font face="Stencil">Ph.No:</font></h3>
+        <input type="tel" placeholder="Enter your Phone.No" required id="ph">
+        <h3 align="left"><font face="Stencil">E-Mail:</font></h3>
+        <input type="email" placeholder="Enter your E-Mail" required id="em">
+        <h3 align="left"><font face="Stencil">Check-in:</font></h3>
+        <input type="date" required id="cin">
+        <h3 align="left"><font face="Stencil">Check-out:</font></h3>
+        <input type="date" required id="cout">
+        <h3 align="left"><font face="Stencil">Type of Room:</font></h3>
+        <select>
+            <option>Select Type of Room</option>
+            <option>Grand Deluxe(capacity:2)</option>
+            <option>Sweet Family(capacity:4)</option>
+            <option>Perfect Double(capacity:2)</option>
+            <option>Perfect Single(capacity:1)</option>
+        </select>
+        <h3 align="left"><font face="Stencil">No of Rooms:</font></h3>
+        <input type="number" required id="nr"><br><br>
+        <input type="button" onclick="book()" value="Book my room">
+    </form>
+    </div>
+    <script>
+        function book(){
+            var name=document.getElementById("nm")
+            var phone=document.getElementById("ph")
+            var mail=document.getElementById("em")
+            var chin=document.getElementById("cin")
+            var chout=document.getElementById("cout")
+            var nroom=document.getElementById("nr")
+            if(name.value && phone.value && mail.value && chin.value && chout.value && nroom.value !="")
+        {
+            alert("Booking Success");
+        }
+        else{
+            alert("fill all the required details");
+        }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+header{
+    background-color: rgb(85, 133, 154);
+    position: sticky;
+    color: aliceblue;
+    top: 10px;
+}
+nav{
+    margin-top: -10px;
+    margin-left: 10px;
+    color: aliceblue;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li a{
+    margin-left: -2px;
+    color: aliceblue;
+}
+body img{
+    border:5px;
+    width: 450px;
+    height: 37 0px;
+    border-style: groove;
+    margin-left: 50PX;
+    margin-top: 80px;
+    box-shadow:20px 15px 20px grey;
+}
+div{
+    border: 2px;
+    border-style: solid;
+    border-color: transparent;
+    margin-left: 580px;
+    width: 550px;
+    height: 750px;
+    padding-left: 20px;
+    background-color:  rgba(109, 105, 105, 0.501);
+    border-radius: 10%;
+    box-shadow:20px 15px 20px grey;
+    margin-top: -920px;
+}
+div h3{
+    color: rgb(71, 129, 180);
+}
+div a{
+    color: rgb(247, 81, 5);
+}
+div a:hover{
+    color: green;
+}

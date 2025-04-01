@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="avail.css">
+</head>
+<body>
+    <header>
+        <h1 align="center">Hotel Grandstay</h1>
+        <nav>
+            <ul>
+                <li><a href="Stayhotel.html" font="Lora">home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <form>
+            <h1 align="center"><font face="Stencil">Check Availability</font></h1>
+            <h1 align="center">Check-in</h1>
+            <input type="date" id="ci" required><br>
+            <h1 align="center">Check-out</h1>
+            <input type="date" id="co" required><br>
+            <h1 align="center">No of Rooms</h1>
+            <input type="number" required id="ro" placeholder="select no of rooms">
+            <h1 align="center">No of Guests</h1>
+            <input type="number" id="gu" placeholder="select no of person" required><br><br>
+            <input type="button" id="ca" value="Check Availability" onclick="ava()">
+            <h4 align="center"><a href="book.html">take booking</a></h4>
+        </form>
+    </div>
+    <script>
+        function ava(){
+           var cin=document.getElementById("ci")
+           var cout=document.getElementById("co")
+           var rno=document.getElementById("ro")
+           var gno=document.getElementById("gu")
+           if(cin.value && cout.value && rno.value && gno.value!="")
+           {
+            alert("rooms avialable")
+           }
+           else
+           {
+            alert("fill required details")
+           }
+        }
+    </script>
+</body>
+</html>

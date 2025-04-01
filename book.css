@@ -1,0 +1,51 @@
+header{
+    background-color: rgb(85, 133, 154);
+    position: sticky;
+    color: aliceblue;
+    top: 10px;
+}
+nav{
+    margin-top: -10px;
+    margin-left: 8px;
+    color: aliceblue;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li a{
+    margin-left: -2px;
+    color: aliceblue;
+}
+div{
+    border:2px;
+    border-style: solid;
+    border-color: transparent;
+    background-color:  rgba(109, 105, 105, 0.501);
+    width: 550px;
+    height: 700px;
+    border-radius: 15%;
+    padding-left: 150px;
+    padding-right: 100px;
+    margin-left: 160px;
+    box-shadow:20px 15px 20px grey;
+}
+div h3{
+    color: rgb(71, 129, 180);
+}
+div input{
+    margin-left: 50px;
+    width: 400px;
+}
+div select{
+    margin-left:50px;
+    width:400px;
+}
+div input[type="button"]{
+    width:250px;
+    margin-left: 130px;
+    margin-top: 10px;
+    background-color: rgb(71, 129, 180);
+}
+div input[type="button"]:hover{
+    background-color: green;
+}

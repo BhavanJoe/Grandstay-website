@@ -1,0 +1,32 @@
+header{
+    background-color: rgb(85, 133, 154);
+    position: sticky;
+    color: aliceblue;
+    top: 10px;
+}
+nav{
+    margin-top: -10px;
+    margin-left: -180px;
+    margin-bottom: 5px;
+    color: aliceblue;
+}
+nav ul{
+    list-style: none;
+}nav ul li{
+    display:inline;
+}
+nav ul li a{
+    margin-left: 200px;
+    color: aliceblue;
+}
+body{
+    color: rgb(79, 28, 74);
+}
+body img{
+    border:5px;
+    width: 750px;
+    height: 650px;
+    border-style: groove;
+    margin-left: 200PX;
+    box-shadow:20px 15px 20px grey;
+}

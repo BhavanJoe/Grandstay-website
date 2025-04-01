@@ -1,0 +1,142 @@
+header{
+    background-color: rgb(85, 133, 154);
+    position: sticky;
+    color: aliceblue;
+    top: 10px;
+}
+nav{
+    margin-top: -10px;
+    margin-left: 8px;
+    color: aliceblue;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li a{
+    margin-left: -2px;
+    color: aliceblue;
+}
+body img{
+    border:5px;
+    width: 450px;
+    height: 370px;
+    border-style: groove;
+    margin-left: 50PX;
+    margin-top: 50px;
+    box-shadow:20px 15px 20px grey;
+}
+img:hover{
+width:465px;
+height:385px;
+}
+.delux{
+    border: 2px;
+    border-style:solid;
+    width:450px;
+    height: 280px;
+    margin-left: 600px;
+    margin-top: -350px;
+    padding-left: 35px;
+    border-color: transparent;
+    background-color:  rgba(109, 105, 105, 0.501);
+    border-radius: 20%;
+    box-shadow:20px 15px 20px grey;
+}
+.delux:hover{
+    width:465px;
+    height: 295px;
+    
+}
+.delux h3{
+    color:  rgb(71, 129, 180);
+}
+.delux a{
+    color:rgb(247, 81, 5);
+    margin-left: 175px;
+}
+.delux a:hover{
+    color:green
+}
+.fam{
+    border: 2px;
+    border-style:solid;
+    width:450px;
+    height: 280px;
+    margin-left: 600px;
+    margin-top: -350px;
+    padding-left: 35px;
+    border-color: transparent;
+    background-color:  rgba(109, 105, 105, 0.501);
+    border-radius: 20%;
+    box-shadow:20px 15px 20px grey;
+}
+.fam:hover{
+    width:465px;
+    height: 295px;
+    
+}
+.fam a{
+    color:rgb(247, 81, 5);
+    margin-left: 175px;
+}
+.fam a:hover{
+    color:green
+}
+.fam h3{
+    color:  rgb(71, 129, 180);
+}
+.double{
+    border: 2px;
+    border-style:solid;
+    width:450px;
+    height: 280px;
+    margin-left: 600px;
+    margin-top: -350px;
+    padding-left: 35px;
+    border-color: transparent;
+    background-color:  rgba(109, 105, 105, 0.501);
+    border-radius: 20%;
+    box-shadow:20px 15px 20px grey;
+}
+.double:hover{
+    width:465px;
+    height: 295px;
+    
+}
+.double a{
+    color:rgb(247, 81, 5);
+    margin-left: 175px;
+}
+.double a:hover{
+    color: green;
+}
+.double h3{
+    color:  rgb(71, 129, 180);  
+}
+.single{
+    border: 2px;
+    border-style:solid;
+    width:450px;
+    height: 280px;
+    margin-left: 600px;
+    margin-top: -350px;
+    padding-left: 35px;
+    border-color: transparent;
+    background-color:  rgba(109, 105, 105, 0.501);
+    border-radius: 20%;
+    box-shadow:20px 15px 20px grey;
+}
+.single:hover{
+    width:465px;
+    height: 295px;
+}
+.single a{
+    color:rgb(247, 81, 5);
+    margin-left: 175px;
+}
+.single a:hover{
+    color: green;
+}
+.single h3{
+    color:  rgb(71, 129, 180);
+}

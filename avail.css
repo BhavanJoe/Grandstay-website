@@ -1,0 +1,53 @@
+header{
+    background-color: rgb(85, 133, 154);
+    position: sticky;
+    color: aliceblue;
+    top: 10px;
+}
+nav{
+    margin-top: -10px;
+    margin-left: 8px;
+    color: aliceblue;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li a{
+    margin-left: -2px;
+    color: aliceblue;
+}
+div{
+    border: transparent;
+    border-style: solid;
+    width: 550px;
+    height: 570px;
+    margin-left: 320px;
+    background-color:  rgba(109, 105, 105, 0.501);
+    border-radius: 10%;
+    box-shadow:20px 15px 20px grey;
+}
+div input[type="date"]
+{
+    margin-left: 220px;
+}
+div input[type="number"]
+{
+    margin-left: 190px;
+}
+div input[type="button"]
+{
+    margin-left:210px ;
+    margin-top: 20px;
+    background-color: rgb(71, 129, 180);
+}
+div input[type="button"]:hover
+{
+    background-color: green;
+    font-size:15px;
+}
+div h4 a{
+    color: green;
+}
+div h4 a:hover{
+    color:red;
+}
